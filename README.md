@@ -1,3 +1,3 @@
 # JanJo308.github.io
-# this is a test
-test 2
+
+[**homework 2-1**](https://JanJo308.gitub.io/homework 2-1.html)
