@@ -1,76 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework2-4</title>
-    <style>
-
-        .header{
-            width: 100%;
-            height: 60px;
-            color: red;
-            background-color: aqua;
-        }
-
-        .left_head{
-            height: 100%;
-            font-size: 50px;
-            font-weight: 700;
-            float: left;
-            background-color: blue;
-        }
-
-        .right_head{
-            height: 100%;
-            font-weight: 600;
-            float: right;
-            display: flex;
-            align-items: center;
-            background-color: aquamarine;
-        }
-
-        
-
-    </style>
+  <meta charset="UTF-8">
+  <title>Stanford Performing Arts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .header h1 {
+      color: red;
+      font-size: 36px;
+      margin: 0;
+    }
+    .edition {
+      color: red;
+      font-weight: bold;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .content {
+      display: flex;
+      margin-top: 30px;
+    }
+    .left {
+      flex: 2;
+      margin-right: 40px;
+    }
+    .left h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .left img {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 10px;
+    }
+    .right {
+      flex: 1;
+    }
+    .right h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .calendar {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+    .calendar p {
+      margin: 10px 0;
+      border-bottom: 1px solid black;
+      padding-bottom: 5px;
+    }
+    .calendar p:last-child {
+      border-bottom: none;
+    }
+    em {
+      font-style: italic;
+    }
+  </style>
 </head>
 <body>
 
-    <div class="header">
-        <div class="left_head">
-            Stanford Performing Arts
-        </div>
+  <div class="header">
+    <h1>Stanford Performing Arts</h1>
+    <div class="edition">Autumn 2012<br>Edition</div>
+  </div>
 
-        <div class="right_head">
-            Autumn 2012 <br>
-            Edition
-        </div>
+  <div class="content">
+    <div class="left">
+      <h2>Bing Concert Hall</h2>
+      <img src="homework2-4.jpg" alt="Bing Concert Hall">
+      <p>The Bing Concert Hall at Stanford will play a vital role on campus and in the local community. The hall's exceptional acoustics and state-of-the-art technical capabilities will showcase the world's finest performers.</p>
+      <p>The hall is scheduled to open early in 2013. The concert hall will have 844 seats in an intimate vineyard-style configuration, with terraced sections wrapping all the way around the stage.</p>
     </div>
+    <div class="right">
+      <h3>Calendar</h3>
+      <div class="calendar">
+        <p><em>Harmony for Humanity: Daniel Pearl World Music Concert</em></p>
+        <p><em>Sundays with the St. Lawrence String Quartet</em></p>
+        <p><em>Merce Cunningham Dance Company</em></p>
+        <p><em>Juilliard String Quartet</em></p>
+      </div>
+    </div>
+  </div>
 
-    <div class="section_1">
-        <div class="title">Bing Concert Hall</div>
-        <div class="content">
-            The Bing Concert Hall at Stanford will play a vital role 
-            on campus and in the local community. The Hall's 
-            exceptional acoustics and state of art techical
-            apabilitioes will showcase the world's finest performers.
-            <br><br>
-            The hall us schedueld to open early in 2013.
-            <div class="pic"></div>
-        </div>
-    </div>
-
-    <div class="section_2">
-        <tr>
-            <th>Calender</th>
-        </tr>
-        <tr>
-            <td>Harmony for Humanity: Damiel Pearl World Music Concert</td>
-            <td>Sundays with the St.Lawerance string Quartet</td>
-            <td>Merce Cunningham Dance Company</td>
-            <td>Julliard String Quartet</td>
-        </tr>
-    </div>
-    
 </body>
 </html>
