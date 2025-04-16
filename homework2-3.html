@@ -1,75 +1,57 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>homework 2-3
-    </title>
-    <style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-        .cont {
-            background-color: blueviolet;
-        }
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
 
-        .box_1 {
-            background-color: aqua;
-            float: left;
-        }
-
-        .box_2 {
-            background-color: aquamarine;
-        }
-
-        .head {
-            font-size: 20px;
-            font-weight: 800;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-    </style>
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
 
-    <div class="cont">
+<div class="row">
+  <div class="column">
+    <h2>Stanford researchers find a quicker,<br>
+        cheaper way so sort isotopes</h2>
+                
+    <p>BY EMMANUEL ROMERO L.A. Cicero Richard</p>
+    <p> Zare Professor Richard Zare in his lab. Whether it's the summer</p>
+    <p> grass that tickles your feet or the red Brodeaus smacking on</p>
+    <p>your palate, nearly every part of the world around you carries</p>
+    <p>special chemical markers. These markers, called isotopes, can</p>
+    <p>tell scientists where the molecules that compose a substance </p>
+    <p>are from, where they traveled and what happened to them </p>
+    <p>along the way. Now, Stanford chemists have developed a new</p>
+    <p>method to make isotopics analysis easier and less expensive.</p>
+  </div>
 
-        <div class="box box_1">
-            <p class="head">
-                Stanford researchers find a quicker,<br>
-                cheaper way so sort isotopes
-            </p>
-    
-            <p>
-                BY EMMANUEL ROMERO L.A. Cicero Richard <br>
-                 Zare Professor Richard Zare in his lab. Whether it's the summer <br>
-                 grass that tickles your feet or the red Brodeaus smacking on <br>
-                 your palate, nearly every part of the world around you carries <br>
-                 special chemical markers. These markers, called isotopes, can <br>
-                 tell scientists where the molecules that compose a substance <br>
-                 are from, where they traveled and what happened to them <br>
-                 along the way. Now, Stanford chemists have developed a new <br>
-                 method to make isotopics analysis easier and less expensive.
-            </p>
-        </div>
-    
-        <div class="box box_2">
-            <p class="head">
-                Chance to dance: Enthusiats fly to <br>
-                Stanford for dance weekend
-            </p>
-    
-            <p>
-                BY CYNTHIA HAVEN L.A Cicero Lindy Hop instruction <br>
-                Stanford is an epicenter  for the vintage dance movement--but <br>
-                life in the Stanford dance world is not all foxtrots and tangos. <br>
-                The June 26-28 Stanford's Dance Weekend in Roble Gym <br>
-                offers something for modern dance enthusiats, too: the <br>
-                hustle, the West Coast swing, 1970s disco hustle, Bollywood <br>
-                and blues fusion.
-            </p>
-    
-        </div>
+  <div class="column">
+    <h2>Chance to dance: Enthusiats fly to <br>
+        Stanford for dance weekend</h2>
 
-    </div>
-    
+    <p>BY CYNTHIA HAVEN L.A Cicero Lindy Hop instruction</p>
+    <p>Stanford is an epicenter  for the vintage dance movement--but</p>
+    <p>life in the Stanford dance world is not all foxtrots and tangos.</p>
+    <p>The June 26-28 Stanford's Dance Weekend in Roble Gym</p>
+    <p>offers something for modern dance enthusiats, too: the</p>
+    <p>hustle, the West Coast swing, 1970s disco hustle, Bollywood</p>
+    <p>and blues fusion.</p>
+  </div>
+</div>
+
 </body>
 </html>
