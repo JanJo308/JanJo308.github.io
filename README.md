@@ -26,4 +26,4 @@
 
 영상처리
 
-[**123**](https://JanJo308.github.io/chap123.py) 
+[**chap123**](https://JanJo308.github.io/chap123.py) 
